@@ -2,28 +2,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
     <title>Boostrap 5 website</title>
 </head>
 <body>
     
     <section id="title">
+      <div class="container-fluid">
 
-        <!-- Nav Bar -->
-    
-    
-    
-    
-        <!-- Title -->
-    
-        <div>
-          <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <!-- Nav Bar -->
+          <nav class="navbar navbar-expand-lg navbar-dark">
+              <a class="navbar-brand" href="#">Tindog</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link btn" href="#">Download</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+      
+      
+      
+          <!-- Title -->
+        <div class="row">
+            <div class ="col-lg-6">
+              <h1>Meet new and interesting dogs nearby.</h1>
+              <button type="button" class="btn btn-dark btn-lg">
+                <i class="fab fa-apple"></i>
+                Download
+              </button>
+              <button type="button" class="btn btn-outline-light btn-lg">
+                <i class="fab fa-google-play"></i>
+                Download
+              </button>
+            </div>
+            <div class ="col-lg-6">
+              <img src="img/iphone6.png" alt="iphone-mockup" class="img-dog">
+            </div>
         </div>
-        <div>
-          <img src="images/iphone6.png" alt="iphone-mockup">
         </div>
-    
       </section>
     
     
@@ -48,7 +80,7 @@
       <section id="testimonials">
     
         <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-        <img src="images/dog-img.jpg" alt="dog-profile">
+        <img src="img/dog-img.jpg" alt="dog-profile">
         <em>Pebbles, New York</em>
     
         <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
@@ -61,10 +93,10 @@
       <!-- Press -->
     
       <section id="press">
-        <img src="images/techcrunch.png" alt="tc-logo">
-        <img src="images/tnw.png" alt="tnw-logo">
-        <img src="images/bizinsider.png" alt="biz-insider-logo">
-        <img src="images/mashable.png" alt="mashable-logo">
+        <img src="img/techcrunch.png" alt="tc-logo">
+        <img src="img/tnw.png" alt="tnw-logo">
+        <img src="img/bizinsider.png" alt="biz-insider-logo">
+        <img src="img/mashable.png" alt="mashable-logo">
     
       </section>
     
@@ -123,5 +155,6 @@
     
       </footer>
     
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js"></script>
 </body>
 </html>

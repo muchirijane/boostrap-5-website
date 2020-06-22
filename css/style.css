@@ -1,0 +1,19 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+}
+#title{
+    background:#ff4c68;
+    color: #fff;
+}
+.container-fluid{
+    padding: 3% 15%;
+}
+.navbar-brand{
+    font-family: 'ubuntu',sans-serif;
+}
+
+h1{
+    font-weight: 900;
+    font-size: 3rem;
+}
