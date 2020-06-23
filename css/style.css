@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
@@ -5,15 +15,73 @@ body{
 #title{
     background:#ff4c68;
     color: #fff;
+    height: 650px;
 }
 .container-fluid{
     padding: 3% 15%;
 }
-.navbar-brand{
-    font-family: 'ubuntu',sans-serif;
-}
 
 h1{
     font-weight: 900;
-    font-size: 3rem;
+    font-size: 3.5rem;
+}
+/* Navigation styling. */
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: 'ubuntu',sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #443a3a;
+}
+/* Download button */
+.btn-download{
+    margin: 5% 5% 5% 0;
+}
+
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    display: flex;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+/* Feature section */
+#features{
+    position: relative;
+    z-index: 100;
+    background: #f8f8f8;
+    padding: 7% 15%;
+}
+.feature-col{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+}
+
+.feature-icon{
+    color: #ef8172;
+    font-size: 4.5rem;
+}
+.feature-icon:hover{
+    color: #ff4c68;
+}
+.feature-title{
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+
 }
