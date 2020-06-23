@@ -8,6 +8,11 @@
 html{
     box-sizing: border-box;
 }
+:root{
+    --color-orange: #ef8172;
+    --color-pink: #ff4c68;
+    --color-white: #fff;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
@@ -84,4 +89,36 @@ h1{
     font-size: 1.5rem;
     margin-top: 2rem;
 
+}
+
+/* Testimonial section */
+#testimonials{
+    text-align: center;
+    background: var(--color-orange);
+    color: var(--color-white);
+}
+.testimonial-text{
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#press{
+    background: var(--color-orange);
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-img{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
 }
