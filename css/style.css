@@ -12,6 +12,7 @@ html{
     --color-orange: #ef8172;
     --color-pink: #ff4c68;
     --color-white: #fff;
+    --default-padding: 7% 15%;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -154,4 +155,20 @@ h2{
 
 .cta-title{
     color: var(--color-white);
+}
+
+#footer{
+    padding: 4% 15%;
+    text-align: center;
+}
+.footer-icon{
+    padding: 0 15px;
+}
+
+.footer-icon:hover{
+    color: var(--color-orange);
+}
+.footer-copyright{
+    padding-top: 2rem;
+    font-size: 1.5rem;
 }
